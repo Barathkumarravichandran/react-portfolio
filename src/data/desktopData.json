@@ -1,0 +1,192 @@
+{
+  "header": {
+    "logo": "Barathkumar R.",
+    "links": [
+      "About",
+      "Experience",
+      "Skills",
+      "Projects",
+      "Contact"
+    ],
+    "cta": "Hire Me"
+  },
+  "hero": {
+    "badge": "Senior Full Stack Developer",
+    "headline": "Crafting",
+    "headlineHighlight": "scalable",
+    "headlineRest": ", high-performance web applications.",
+    "skills": [
+      "React.js",
+      "Next.js",
+      "Python",
+      "FastAPI"
+    ],
+    "primaryBtn": "View Projects",
+    "primaryLink": "#projects",
+    "secondaryBtn": "Contact Me",
+    "secondaryLink": "#contact",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAawFvHXH3TQYlDIQc6fE7noWexTFdVjZ2z9lsNntwnDkQawTuuvksL2i8wyHfEFjc3iOpe-sStuXoeAFmFnUlEjAyciUHv6PYa48VTnt-N1b3hpRnBkDZTMRHXK9herab-KAYuUOMn5rvhLNzhwKXFoP0EMtaJzvceuSs6_oxqL6vAriIkyUcOqH3cLekIEPR22qerp7za8WDVjiyeK5Z_KmI8SLXeN_04A_Oqz3hysbMEBFQYOSi2qpsMIA8sMO8bdmEDKiuIrOs",
+    "imageAlt": "Development workspace"
+  },
+  "impact": [
+    {
+      "value": "40%",
+      "label": "Perf Boost"
+    },
+    {
+      "value": "90+",
+      "label": "Lighthouse Score"
+    },
+    {
+      "value": "30%",
+      "label": "Bug Reduction"
+    },
+    {
+      "value": "5+",
+      "label": "Years Experience"
+    }
+  ],
+  "about": {
+    "titleStart": "Digital",
+    "titleHighlight": "Craftsmanship",
+    "titleEnd": "meets functional precision.",
+    "description": "I am a Senior Full Stack Developer based in Chennai, India, dedicated to building digital products that prioritize user experience and technical excellence. My approach combines the art of design with the science of scalable architecture.",
+    "skills": [
+      {
+        "icon": "speed",
+        "title": "Performance Optimization",
+        "description": "Delivering blazing-fast interfaces with a proven track record of 40% improvement in load times."
+      },
+      {
+        "icon": "architecture",
+        "title": "Scalable Architecture",
+        "description": "Designing robust backends with FastAPI and Node.js that grow seamlessly with your user base."
+      }
+    ],
+    "image": "/assets/my-img.png",
+    "imageAlt": "Professional portrait"
+  },
+  "experience": {
+    "sectionTag": "Journey",
+    "title": "Experience.",
+    "list": [
+      {
+        "company": "BCT",
+        "period": "2022 — Present",
+        "role": "Senior Software Engineer",
+        "subtitle": "Bhawan Cyber Tek",
+        "description": "Leading the development of enterprise-grade microservices. Achieved a <span class='text-primary-container font-bold'>40% performance boost</span> through strategic query optimization and frontend caching mechanisms.",
+        "tags": [
+          "PYTHON",
+          "REACT",
+          "AWS"
+        ]
+      },
+      {
+        "company": "Boom Games",
+        "period": "2020 — 2022",
+        "role": "Frontend Engineer",
+        "subtitle": "Boom Games Pvt Ltd",
+        "description": "Architected immersive web gaming interfaces. Maintained a consistent <span class='text-primary-container font-bold'>90+ Lighthouse score</span> for complex interactive applications.",
+        "tags": [
+          "NEXT.JS",
+          "TYPESCRIPT",
+          "GSAP"
+        ]
+      },
+      {
+        "company": "Qassure",
+        "period": "2018 — 2020",
+        "role": "Software Developer",
+        "subtitle": "Qassure Technologies",
+        "description": "Focused on QA-driven development and backend robustness. Resulted in <span class='text-primary-container font-bold'>30% bug reduction</span> in production environments.",
+        "tags": [
+          "NODE.JS",
+          "MONGODB",
+          "JEST"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Tech Stack.",
+    "categories": [
+      {
+        "icon": "brush",
+        "category": "Frontend",
+        "technologies": [
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Redux"
+        ]
+      },
+      {
+        "icon": "database",
+        "category": "Backend",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "Node.js",
+          "Express",
+          "GraphQL"
+        ]
+      },
+      {
+        "icon": "settings",
+        "category": "Tools & Infrastructure",
+        "technologies": [
+          "PostgreSQL",
+          "Docker",
+          "AWS",
+          "Git",
+          "CI/CD"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "sectionTag": "Portfolio",
+    "title": "Selected Work.",
+    "list": [
+      {
+        "title": "Fintech Dashboard",
+        "category": "Enterprise SaaS",
+        "description": "A comprehensive real-time analytics engine for financial institutions. Built with Next.js and high-frequency data streaming.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDp7dinzMB_7JIJWWDBq4VAff_NgjCUfcXBlQtOG9DI5lCAfXYjfxEbr7z4VuWGRPACI06ZYE8lGNBxNZZhqRKdbMPbZjifN_yo3toWdY1C9bO80U5lRMwGNchh7s5hT4vWoZr5IRMG4gRRmtEUgx4QAHft1j5lMzXWj4rZeWzpbUwDdHSTPhj8z6TySRvKFj3Pm6usLpUnXkA3wPxXM6uyJMO2owUZXvzSP2pmy9LT5dXr8JylMN8dxojWIAwERQeAdmuaIn9YB1w",
+        "imageAlt": "Fintech Dashboard",
+        "link": "#"
+      },
+      {
+        "title": "Artisanal Market",
+        "category": "E-Commerce",
+        "description": "Full-stack marketplace with complex inventory management and integrated payment gateways using Python/FastAPI.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC6xl4UYzuT-nxqDYxzDg_WkX5IVTH_IrLSr_BG256spHsF3hgv9_fXVH_ZkZ0SfkWZufrCiudBUfxuJwXG0BVDxuceHTdobm13SkxUptC3vakoQYO4Qm6b3J-GYQl5wXIGtRy1qXZ1x2Bv5sbPF1EjY4pcX6hw6tYXINFuf-y98xg0gwTbMj-XIEVIBzJcgP68a40bGqf8A0jPev-FlMIZNYKofYS5d9mDy7AseupVn6RAW8u_FX9ZdY8yBKddvIjzuuWwwQmtEIk",
+        "imageAlt": "E-commerce Experience",
+        "link": "#"
+      }
+    ]
+  },
+  "contact": {
+    "headlineStart": "Let's build something",
+    "headlineHighlight": "impactful",
+    "headlineEnd": ".",
+    "description": "I’m currently available for new projects or leadership roles. Let’s talk about how I can bring your vision to life.",
+    "methods": [
+      {
+        "icon": "Handshake",
+        "label": "LinkedIn",
+        "value": "Barathkumar Ravichandran",
+        "link": "https://www.linkedin.com/in/barathkumar-ravichandran/"
+      }
+    ],
+    "form": {
+      "button": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Barathkumar Ravichandran. Digital Craftsman.",
+    "links": []
+  }
+}

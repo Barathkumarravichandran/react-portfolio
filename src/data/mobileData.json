@@ -1,0 +1,162 @@
+{
+  "header": {
+    "logo": "Barathkumar R."
+  },
+  "hero": {
+    "badge": "Full Stack Craftsman",
+    "headlineStart": "Building the ",
+    "headlineHighlight": "Future",
+    "headlineEnd": " of Digital Experience.",
+    "description": "I blend architectural precision with creative soul to build scalable, high-performance applications that users love.",
+    "primaryBtn": "Hire Me",
+    "secondaryBtn": "View Projects",
+    "image": "/assets/my-img.png",
+    "imageAlt": "Barathkumar Ravichandran Portrait",
+    "stats": {
+      "value": "5+",
+      "label": "Years of Code"
+    }
+  },
+  "experience": {
+    "sectionTag": "The Journey",
+    "title": "Experience.",
+    "list": [
+      {
+        "period": "2022 — Present",
+        "role": "Senior Software Architect",
+        "company": "TechVision Corp",
+        "description": "Leading the transition to microservices and overseeing front-end performance optimizations for 1M+ active users."
+      },
+      {
+        "period": "2019 — 2022",
+        "role": "Full Stack Developer",
+        "company": "Innovate Studio",
+        "description": "Developed scalable SaaS solutions using React and Node.js. Reduced server response times by 40% through caching strategies."
+      }
+    ]
+  },
+  "skills": {
+    "sectionTag": "Capabilities",
+    "title": "Mastered Tools.",
+    "categories": [
+      {
+        "icon": "terminal",
+        "title": "Backend Engineering",
+        "description": "Node.js, Python, PostgreSQL, Redis",
+        "colSpan": 2,
+        "bgClass": "bg-surface-container-high"
+      },
+      {
+        "icon": "brush",
+        "title": "UI/UX Design",
+        "description": "",
+        "colSpan": 1,
+        "bgClass": "bg-surface-container-low"
+      },
+      {
+        "icon": "cloud",
+        "title": "DevOps",
+        "description": "",
+        "colSpan": 1,
+        "bgClass": "bg-surface-container-low"
+      },
+      {
+        "icon": "code_blocks",
+        "title": "Frontend Mastery",
+        "description": "React, Next.js, Tailwind, Framer Motion",
+        "colSpan": 2,
+        "bgClass": "ember-gradient",
+        "isWhiteText": true
+      }
+    ]
+  },
+  "projects": {
+    "sectionTag": "Selected Work",
+    "title": "Digital Projects.",
+    "list": [
+      {
+        "title": "EtherVault Analytics Platform",
+        "tags": [
+          "Fintech",
+          "AI"
+        ],
+        "description": "A comprehensive crypto-wealth management tool focusing on deep-tier security and AI-driven insights.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDPpdr5la80cx_lSJ2CnB_PluyiZ56q9SYxUgnkwZNQXUIGuc7APzZQGlic90l0dYLPPt1aM3biEsaBFo_FsKD0x1NTpa7WFBuN0WkufDskQ9L6dSN7WvSm2xTIsp-Wob1zN5UQMmnM6Ji7Yca2xYmY_gYX3mUTYNwdDGw97LL9vo3nSs73Cq7kmbNwzCiS9BYrz7z7NfXj8n13Q8qqMEEFUIqxAQxOppEH1yRILr5dq6_9McPr6y1biCrxxB8Mfr5AfhVffoDCKCs",
+        "imageAlt": "Fintech Dashboard Project",
+        "link": "#"
+      },
+      {
+        "title": "Soleil Boutique Experience",
+        "tags": [
+          "E-Commerce"
+        ],
+        "description": "Bespoke headless commerce solution for a premium fashion brand focusing on micro-interactions.",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuARcFqf19I06K3COh3oz4V9GIUy5GaFLM_be37IfuLXosVGlVPkxgTYyeYEr56aa1ARY00KxwnW1THv0netMEdYc-bZQ7FxH6KUC2y39WK-FRJ1f7CYZ4RwEHKzcfTyZYnWj3vbJqPUFX-PCmGqpfKE5HiUrDHcf7wXWqgPIOwapMJlVHATIdE6X3uZrQKGelFK4Dm8nryBOMsPxZon4e6BWhsnuL3D4YOJJEJ2CA_oUpAFrHu5D1UQVkKb5uY6psJkHxoJx6LmyfU",
+        "imageAlt": "E-commerce Experience",
+        "link": "#"
+      }
+    ]
+  },
+  "achievements": {
+    "list": [
+      {
+        "value": "50+",
+        "title": "Projects Shipped",
+        "description": "From startups to Fortune 500 enterprises."
+      },
+      {
+        "value": "12",
+        "title": "Industry Awards",
+        "description": "Recognized for code quality and UI innovation."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTag": "Get In Touch",
+    "title": "Let's Build Together."
+  },
+  "footer": {
+    "logo": "Barathkumar Ravichandran.",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "#"
+      },
+      {
+        "label": "GitHub",
+        "url": "#"
+      },
+      {
+        "label": "Email",
+        "url": "#"
+      },
+      {
+        "label": "Resume",
+        "url": "#"
+      }
+    ],
+    "copyright": "© 2024 Barathkumar Ravichandran. Digital Craftsman."
+  },
+  "bottomNav": [
+    {
+      "icon": "person",
+      "label": "Profile",
+      "anchor": "#About"
+    },
+    {
+      "icon": "timeline",
+      "label": "Journey",
+      "anchor": "#Experience"
+    },
+    {
+      "icon": "grid_view",
+      "label": "Works",
+      "anchor": "#Projects"
+    },
+    {
+      "icon": "chat_bubble",
+      "label": "Connect",
+      "anchor": "#Contact"
+    }
+  ]
+}

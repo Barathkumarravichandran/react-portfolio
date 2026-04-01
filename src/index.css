@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #19120e;
+    color: #f0dfd8;
+    scroll-behavior: smooth;
+    min-height: max(884px, 100dvh);
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+
+  .glass-panel {
+    background: rgba(49, 40, 36, 0.4);
+    backdrop-filter: blur(12px);
+  }
+
+  .ember-gradient {
+    background: linear-gradient(135deg, #E8500A 0%, #C93D00 100%);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(232, 80, 10, 0.3);
+  }
+
+  .no-line-rule {
+    border: none !important;
+  }
+
+  .tonal-shift-bottom {
+    box-shadow: 0 20px 40px rgba(20, 13, 9, 0.3);
+  }
+  
+  .tonal-shift-bottom-mobile {
+    box-shadow: 0 10px 30px -10px rgba(20, 13, 9, 0.5);
+  }
+
+  .tonal-shift-top {
+    box-shadow: 0 -20px 40px rgba(20, 13, 9, 0.3);
+  }
+}
