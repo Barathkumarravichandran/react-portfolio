@@ -2,11 +2,12 @@ import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import data from '../../data/mobileData.json';
+import { usePortfolio } from '../../context/PortfolioContext';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export default function MobileProjects() {
+  const { mobileData: data } = usePortfolio();
   const container = useRef();
   const projData = data.projects;
 

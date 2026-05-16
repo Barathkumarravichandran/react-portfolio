@@ -1,7 +1,8 @@
 import React from 'react';
-import data from '../../data/mobileData.json';
+import { usePortfolio } from '../../context/PortfolioContext';
 
 export default function MobileFooter() {
+  const { mobileData: data } = usePortfolio();
   const footerData = data.footer;
   return (
     <footer className="bg-[#140d09] py-20 px-8 mt-24">

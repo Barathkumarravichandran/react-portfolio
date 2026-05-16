@@ -2,11 +2,12 @@ import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import data from '../../data/desktopData.json';
+import { usePortfolio } from '../../context/PortfolioContext';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export default function SkillsSection() {
+  const { desktopData: data } = usePortfolio();
   const container = useRef();
   const skillsData = data.skills;
 

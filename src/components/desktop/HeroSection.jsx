@@ -1,11 +1,12 @@
 import React, { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import data from '../../data/desktopData.json';
+import { usePortfolio } from '../../context/PortfolioContext';
 
 gsap.registerPlugin(useGSAP);
 
 export default function HeroSection() {
+  const { desktopData: data } = usePortfolio();
   const container = useRef();
   const heroData = data.hero;
 

@@ -2,13 +2,14 @@ import React, { useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import data from '../../data/desktopData.json';
+import { usePortfolio } from '../../context/PortfolioContext';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const VISIBLE_LIMIT = 6;
 
 export default function ProjectsSection() {
+  const { desktopData: data } = usePortfolio();
   const container = useRef();
   const projData = data.projects;
   const [showAll, setShowAll] = useState(false);

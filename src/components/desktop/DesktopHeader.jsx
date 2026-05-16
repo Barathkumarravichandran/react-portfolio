@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import data from '../../data/desktopData.json';
+import { usePortfolio } from '../../context/PortfolioContext';
 
 export default function DesktopHeader() {
+  const { desktopData: data } = usePortfolio();
   const { logo, links, cta } = data.header;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -25,7 +26,8 @@ export default function DesktopHeader() {
               {link}
             </a>
           ))}
-          <button className="ember-gradient text-[#FDF6EF] px-8 py-3 rounded-xl font-headline font-bold text-sm tracking-widest uppercase scale-105 active:scale-95 transition-transform shadow-lg shadow-primary-container/20">
+          <button className="ember-gradient text-[#
+          ] px-8 py-3 rounded-xl font-headline font-bold text-sm tracking-widest uppercase scale-105 active:scale-95 transition-transform shadow-lg shadow-primary-container/20">
             {cta}
           </button>
         </div>
@@ -48,14 +50,14 @@ export default function DesktopHeader() {
 
       {/* Tablet Off-Canvas Menu Backdrop */}
       {isMenuOpen && (
-        <div 
+        <div
           className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[40] transition-opacity md:flex lg:hidden h-screen"
           onClick={() => setIsMenuOpen(false)}
         />
       )}
 
       {/* Tablet Off-Canvas Menu Drawer */}
-      <div 
+      <div
         className={`fixed top-0 right-0 h-screen w-80 bg-[#19120e] shadow-[0_0_50px_rgba(0,0,0,0.5)] z-[50] border-l border-outline-variant/20 transform transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} hidden md:flex lg:hidden flex-col pt-32 px-10 gap-8`}
       >
         {links.map((link) => (

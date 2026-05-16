@@ -1,7 +1,8 @@
 import React from 'react';
-import data from '../../data/desktopData.json';
+import { usePortfolio } from '../../context/PortfolioContext';
 
 export default function DesktopFooter() {
+  const { desktopData: data } = usePortfolio();
   const footerData = data.footer;
   return (
     <footer className="w-full py-20 bg-[#140d09] dark:bg-[#140d09] tonal-shift-top">
