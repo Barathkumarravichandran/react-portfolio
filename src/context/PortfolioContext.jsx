@@ -22,8 +22,8 @@ export const PortfolioProvider = ({ children }) => {
         setLoading(true);
         // Fetch both datasets concurrently
         const [desktopRes, mobileRes] = await Promise.all([
-          fetch('http://localhost:1337/api/desktop'),
-          fetch('http://localhost:1337/api/mobile')
+          fetch('https://strapi-rngk.onrender.com/api/desktop'),
+          fetch('https://strapi-rngk.onrender.com/api/mobile')
         ]);
 
         if (!desktopRes.ok) {
@@ -53,7 +53,7 @@ export const PortfolioProvider = ({ children }) => {
   }, []);
 
   const submitContactForm = async (formData) => {
-    const response = await fetch('http://localhost:1337/api/contact-forms', {
+    const response = await fetch('https://strapi-rngk.onrender.com/api/contact-forms', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -64,7 +64,7 @@ export const PortfolioProvider = ({ children }) => {
     if (!response.ok) {
       throw new Error('Failed to submit form');
     }
-    
+
     return await response.json();
   };
 
