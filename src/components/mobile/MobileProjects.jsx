@@ -26,7 +26,7 @@ export default function MobileProjects() {
   }, { scope: container });
 
   return (
-    <section ref={container} className="py-24 px-6 bg-[#FDF6EF]" id="Services">
+    <section ref={container} className="py-24 px-6 bg-[#FDF6EF]" id="services">
       <div className="mb-12 section-title">
         <span className="font-headline text-[#E8500A] font-bold text-sm uppercase tracking-widest block mb-2">{projData.sectionTag}</span>
         <h2 className="font-headline text-3xl font-bold text-[#19120e]">{projData.title}</h2>

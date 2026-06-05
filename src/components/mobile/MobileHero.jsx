@@ -13,7 +13,7 @@ export default function MobileHero() {
   useGSAP(() => {
     gsap.from("h1", { y: 30, opacity: 0, duration: 1, ease: "power3.out", delay: 0.2 });
     gsap.from("p", { y: 20, opacity: 0, duration: 1, ease: "power3.out", delay: 0.4 });
-    gsap.from("button", { y: 20, opacity: 0, duration: 0.8, stagger: 0.2, ease: "power3.out", delay: 0.6 });
+    gsap.from(".hero-btn", { y: 20, opacity: 0, duration: 0.8, stagger: 0.2, ease: "power3.out", delay: 0.6 });
     // gsap.from("img", { scale: 0.95, opacity: 0, duration: 1.5, ease: "power4.out", delay: 0.5 });
     gsap.from(".badge-animated", { scale: 0.8, opacity: 0, duration: 1, ease: "back.out(1.5)", delay: 1 });
   }, { scope: container });
@@ -30,12 +30,12 @@ export default function MobileHero() {
           {heroData.description}
         </p>
         <div className="flex flex-col gap-4">
-          <button className="ember-gradient text-on-primary-container font-bold py-4 px-8 rounded-xl shadow-[0_15px_30px_rgba(232,80,10,0.2)] active:scale-95 transition-transform text-center">
+          <a href="https://wa.me/918667254132" target="_blank" rel="noopener noreferrer" className="hero-btn ember-gradient text-[#FDF6EF] font-bold py-4 px-8 rounded-xl shadow-[0_15px_30px_rgba(232,80,10,0.2)] active:scale-95 transition-transform text-center block">
             {heroData.primaryBtn}
-          </button>
-          <button className="bg-surface-container-high text-[#FDF6EF] font-bold py-4 px-8 rounded-xl active:scale-95 transition-transform text-center">
+          </a>
+          <a href="#services" className="hero-btn bg-surface-container-high text-[#FDF6EF] font-bold py-4 px-8 rounded-xl active:scale-95 transition-transform text-center block">
             {heroData.secondaryBtn}
-          </button>
+          </a>
         </div>
       </div>
       <div className="mt-16 relative">
