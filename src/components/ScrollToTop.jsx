@@ -28,7 +28,7 @@ export default function ScrollToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-primary-container text-on-primary-container shadow-lg hover:shadow-primary-container/40 transition-all duration-300 scale-100 hover:scale-110 active:scale-95 flex items-center justify-center glass-panel"
+          className="fixed bottom-6 right-6 z-50 p-3 rounded-full ember-gradient text-[#FDF6EF] shadow-lg hover:shadow-primary-container/40 transition-all duration-300 scale-100 hover:scale-110 active:scale-95 flex items-center justify-center glass-panel"
           aria-label="Scroll to top"
         >
           <span className="material-symbols-outlined text-2xl">arrow_upward</span>

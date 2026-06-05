@@ -34,7 +34,7 @@ export default function ProjectsSection() {
   }, { scope: container, dependencies: [showAll] });
 
   return (
-    <section ref={container} className="py-32 bg-surface" id="projects">
+    <section ref={container} className="py-32 bg-surface" id="services">
       <div className="max-w-7xl mx-auto px-8">
 
         {/* Section Header */}
@@ -110,7 +110,7 @@ export default function ProjectsSection() {
               onClick={() => setShowAll(true)}
               className="inline-flex items-center gap-3 px-10 py-4 rounded-xl border-2 border-outline-variant text-on-surface font-headline font-bold text-base tracking-wide uppercase hover:bg-surface-container-high hover:border-primary-container/40 transition-all duration-300 group"
             >
-              View More Projects
+              View More Services
               <span className="material-symbols-outlined transition-transform duration-300 group-hover:translate-y-0.5">
                 expand_more
               </span>

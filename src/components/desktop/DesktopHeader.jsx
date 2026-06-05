@@ -26,17 +26,16 @@ export default function DesktopHeader() {
               {link}
             </a>
           ))}
-          <button className="ember-gradient text-[#
-          ] px-8 py-3 rounded-xl font-headline font-bold text-sm tracking-widest uppercase scale-105 active:scale-95 transition-transform shadow-lg shadow-primary-container/20">
+          <a href="https://wa.me/918667254132" target="_blank" rel="noopener noreferrer" className="ember-gradient text-[#FDF6EF] px-8 py-3 rounded-xl font-headline font-bold text-sm tracking-widest uppercase scale-105 active:scale-95 transition-transform shadow-lg shadow-primary-container/20">
             {cta}
-          </button>
+          </a>
         </div>
 
         {/* Tablet Controls (md to lg) */}
         <div className="hidden md:flex lg:hidden items-center gap-6">
-          <button className="ember-gradient text-[#FDF6EF] px-6 py-2.5 rounded-xl font-headline font-bold text-xs tracking-widest uppercase scale-105 active:scale-95 transition-transform shadow-lg shadow-primary-container/20">
+          <a href="https://wa.me/918667254132" target="_blank" rel="noopener noreferrer" className="ember-gradient text-[#FDF6EF] px-6 py-2.5 rounded-xl font-headline font-bold text-xs tracking-widest uppercase scale-105 active:scale-95 transition-transform shadow-lg shadow-primary-container/20">
             {cta}
-          </button>
+          </a>
           <button
             className="flex items-center text-[#FDF6EF] hover:text-[#e3bfb3] transition-colors relative z-[70]"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
